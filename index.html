@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My world</title>
+    <title>My world...</title>
     <style>
         /* Styling for the image */
         #profile-image {
@@ -14,14 +13,21 @@
             top: 10px;
             left: 10px;
         }
+
+        /* Adjusting text content to avoid overlap */
+        .content {
+            margin-top: 120px; /* Create space at the top to avoid overlap */
+            padding-left: 120px; /* Shift text to the right to accommodate the image */
+        }
     </style>
 </head>
 <body>
     <!-- Image Section -->
     <img id="profile-image" src="AnojSubedi.jpg" alt="Profile Picture">
 
-    <div>
-        <h1>Anoj Subedi</h1>
+    <!-- Text Content -->
+    <div class="content">
+        <h1>ANOJ SUBEDI</h1>
         <p>Welcome to my world!</p>
     
 <head>
@@ -147,6 +153,6 @@
         <li><strong>Languages:</strong> English, Nepali</li>
     </ul>
 </section>
-
+</div>
 </body>
 </html>
